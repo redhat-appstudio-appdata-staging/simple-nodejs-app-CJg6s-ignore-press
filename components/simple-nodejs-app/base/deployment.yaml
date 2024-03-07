@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: simple-nodejs-app
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads-stage/rhn-support-djodha-tenant/simple-nodejs-app/simple-nodejs-app@sha256:a5062dd807c085ec73ebac6869da382fdbe07e23bc56c188b172503e3a327fdc
         imagePullPolicy: Always
         name: container-image
         ports:
