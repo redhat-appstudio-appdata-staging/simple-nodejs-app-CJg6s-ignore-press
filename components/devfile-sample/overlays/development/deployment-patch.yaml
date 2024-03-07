@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/rhn-support-djodha-tenant/simple-nodejs-app/devfile-sample@sha256:62b090bddf4d982c78a3881c92ff2b183794c04eb0698d0b43e41c3f2aadcba4
+      - image: quay.io/redhat-user-workloads-stage/rhn-support-djodha-tenant/simple-nodejs-app/devfile-sample@sha256:3e71a214d0f56d0ba849f038e38140e4f9af50bb2c2dff525e21672d5647c7ce
         name: my-nodejs
         resources: {}
 status: {}
